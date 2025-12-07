@@ -1,0 +1,23 @@
+# Entornos y dependencias
+venv/
+.env
+*.env
+
+# Artefactos generados
+data/processed/
+models/
+*.pkl
+*.joblib
+
+# Caches y bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE/Editor
+.vscode/
+.idea/
